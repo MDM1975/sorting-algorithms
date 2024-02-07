@@ -1,6 +1,6 @@
 # Sorting Algorithms
 
-This repository is a comprehensive collection of sorting algorithm implementations in Python. The aim is to showcase the implementation of various sorting techniques and provide a deep dive into each algorithm's theoretical and practical aspects. Whether you're a student learning about sorting algorithms for the first time, a teacher looking for educational materials, or a professional brushing up on your computer science fundamentals, you'll find valuable insights here.
+This is a repository that contains a thorough compilation of sorting algorithm implementations. The main objective is to demonstrate how different sorting techniques are implemented and provide a detailed understanding of the theoretical and practical aspects of each algorithm. This repository is a valuable resource for students who are learning sorting algorithms and time complexity for the first time, teachers who are searching for educational materials, or professionals who need to refresh their computer science knowledge.
 
 ## Featured Algorithms
 
