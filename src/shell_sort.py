@@ -21,7 +21,10 @@ def shell_sort(array) -> None:
                     break
                 else:
                     # Swap the elements
-                    array[comparison_position + gap_size], array[comparison_position] = array[comparison_position], array[comparison_position + gap_size]
+                    array[comparison_position + gap_size], array[comparison_position] = (
+                        array[comparison_position],
+                        array[comparison_position + gap_size],
+                    )
 
                 # Decrement the comparison position by the gap size
                 comparison_position -= gap_size

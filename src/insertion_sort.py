@@ -1,3 +1,6 @@
+import random
+
+
 def insertion_sort(array) -> None:
     # Iterate over the array, starting from the second element
     for i in range(1, len(array)):
@@ -18,3 +21,12 @@ def insertion_sort(array) -> None:
 
         # Having found the correct position, insert the current number
         array[previous_index + 1] = current_number
+
+
+data = [random.randint(i, 10_000) for i in range(10)]
+
+print(f"Unsorted array: {data}") # [1537, 2219, 5248, 6870, 5668, 6880, 4428, 9529, 8232, 1189]
+
+insertion_sort(data)
+
+print(f"Sorted array: {data}") ## [1189, 1537, 2219, 4428, 5248, 5668, 6870, 6880, 8232, 9529]

@@ -30,8 +30,8 @@ def merge(array, start_index, middle_index, end_index) -> None:
         right_array.append(array[middle_index + j + 1])
 
     # Append infinity to the end of each subarray to serve as a sentinel value
-    left_array.append(float('inf'))
-    right_array.append(float('inf'))
+    left_array.append(float("inf"))
+    right_array.append(float("inf"))
 
     # Initialize counters for the left and right subarrays
     i = 0
